@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <script>
+        distancia = parseInt(prompt('Ingrese la distancia:', ''));
+
+        if (distancia >= 0 && distancia <= 999) {
+            document.write('A pie.');
+        } else if (distancia >= 1000 && distancia <= 9999) {
+            document.write('En bicicleta.');
+        } else if (distancia >= 10000 && distancia <= 29999) {
+            document.write('En colectivo.');
+        } else if (distancia >= 30000 && distancia <= 99999) {
+            document.write('En auto.');
+        } else {
+            document.write('En avión.');
+        }
+    </script>
+
+</body>
+
+</html>

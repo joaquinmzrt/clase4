@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <script>
+        const numerosAleatorios = [157, 326, 456, 178, 38, 592, 6, 225, 47, 99];
+        let maximo = 0;
+        console.log(numerosAleatorios);
+
+        for (let i = 0; i < numerosAleatorios.length; i++) {
+            console.log('numero ' + numerosAleatorios[i]);
+            if (numerosAleatorios[i] > maximo) {
+                maximo = numerosAleatorios[i];
+            }
+        }
+        console.log('el numero mayor es ' + maximo);
+
+    </script>
+</body>
+
+</html>
